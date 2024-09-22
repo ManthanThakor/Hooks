@@ -1,13 +1,12 @@
-import { useState } from "react";
 import "./App.css";
 import UseStateHooks from "./components/UseStateHooks";
+import UseEffectHook from "./components/UseEffectHook";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <UseStateHooks />
+      {/* <UseStateHooks /> */}
+      <UseEffectHook />
     </>
   );
 }
