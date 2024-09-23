@@ -9,6 +9,8 @@ import { ThemeProvider } from "./components/contextApi/ThemeContext";
 import { CounterProvider } from "./components/contextApi2/CounterContext";
 
 import CounterSec from "./components/contextApi2/CounterSec";
+import UseLayoutEffect from "./components/UseLayoutEffect";
+import CustomHook from "./components/CustomHook/CustomHook";
 
 function App() {
   return (
@@ -28,12 +30,15 @@ function App() {
       {/* ========================== */}
       {/* ========================== */}
       {/* //!------- contextApi ex 2---------- */}
-      <CounterProvider>
+      {/* <CounterProvider>
         <CounterSec />
-      </CounterProvider>
+      </CounterProvider> */}
       {/* //!------- contextApi ex:2---------- */}
       {/* ========================== */}
       {/* ========================== */}
+
+      {/* <UseLayoutEffect /> */}
+      <CustomHook />
     </>
   );
 }
